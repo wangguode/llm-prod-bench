@@ -37,7 +37,8 @@ python3 suite_v2/render_charts.py
 - **English Series (DEV.to)**: [Production AI Benchmarks (@wangguode)](https://dev.to/wangguode)
   - Issue #01: [Benchmarking 4 Chinese Flagship LLMs Under Real Agent Load (16 Deterministic Production Tests)](https://dev.to/wangguode/benchmarking-4-chinese-flagship-llms-under-real-agent-load-16-deterministic-production-tests-32eh)
   - Issue #02: [Production MaaS Gateway Benchmark: Streaming TTFT, 100-Way Burst Concurrency & Token Billing Quirks](https://dev.to/wangguode/production-maas-gateway-benchmark-streaming-ttft-100-way-burst-concurrency-token-billing-quirks-1cm1)
-- **Chinese Series (Zhihu, 12K+ followers, Lv8)**: 《AI评测篇》([Issue #01](https://zhuanlan.zhihu.com/p/2105786958261887463) · [Issue #02](https://zhuanlan.zhihu.com/p/2106130232684107687))
+  - Issue #03: [128K Long-Context Needle-in-a-Haystack: Multi-Hop Contract Audits & Context Caching Economics](https://dev.to/wangguode/128k-long-context-needle-in-a-haystack-multi-hop-contract-audits-context-caching-economics-23hd)
+- **Chinese Series (Zhihu, 12K+ followers, Lv8)**: 《AI评测篇》([Issue #01](https://zhuanlan.zhihu.com/p/2105786958261887463) · [Issue #02](https://zhuanlan.zhihu.com/p/2106130232684107687) · [Issue #03](https://zhuanlan.zhihu.com/p/2106132039657317156))
 
 ---
 
