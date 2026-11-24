@@ -19,6 +19,18 @@ Zero LLM-as-a-judge. Zero synthetic leaderboard hype. Every benchmark is reprodu
   - Streaming TTFT (p50 / p95 / p99) & throughput stability
   - 100-way burst concurrency & rate-limit behavior
   - Context caching & token billing reconciliation quirks
+- **`p06_to_p10/`** — Enterprise Cost, Reasoning, Security & Routing Probes (`run_p06_to_p10.py` + `p06_to_p10_live.json`, 120 live API calls):
+  - Flash vs Flagship limit testing (-88% cost)
+  - `enable_thinking` ON vs OFF latency & `reasoning_tokens` explosion (18x cost)
+  - Indirect Prompt Injection & unauthorized tool-call defense across 4 flagships
+  - 16-turn Agent context rot vs async state compaction (-91% input tokens)
+  - LLM gatekeeper router vs 0ms deterministic rule routing (False-Hard trap)
+- **`p11_to_p15/`** — End-to-End Engineering Workflow & Concurrency Probes (`run_p11_to_p15.py` + `p11_to_p15_live.json` + `p11_p12_p14_glm_fair.json`, 168 live API calls):
+  - **P11**: Live SQLite 3 Text-to-SQL (1:N JOIN fan-out silent 37% error trap)
+  - **P12**: AI Code Review (6 real production bugs + 2 clean functions false-positive check)
+  - **P13**: Hybrid BM25 Top-3 RAG vs Full Long-Context across 30 policy docs (151x cost gap)
+  - **P14**: Mixed CN/EN tech meeting Action Item extraction with verbal date overrides
+  - **P15**: Streaming SSE burst concurrency (`1 -> 10 -> 25`) TTFT p50/p95 tail spread
 
 ---
 

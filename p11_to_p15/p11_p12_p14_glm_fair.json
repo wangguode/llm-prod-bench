@@ -1,0 +1,174 @@
+{
+  "p11_glm_2048": [
+    {
+      "id": "SQL-1",
+      "exec_ok": true,
+      "pass": true,
+      "got": "25200.0",
+      "err": "",
+      "latency_s": 3.503,
+      "pt": 246,
+      "ct": 408,
+      "cost_rmb": 0.003756
+    },
+    {
+      "id": "SQL-2",
+      "exec_ok": true,
+      "pass": true,
+      "got": "4000.0",
+      "err": "",
+      "latency_s": 4.714,
+      "pt": 228,
+      "ct": 499,
+      "cost_rmb": 0.004448
+    },
+    {
+      "id": "SQL-3",
+      "exec_ok": true,
+      "pass": true,
+      "got": "2",
+      "err": "",
+      "latency_s": 2.97,
+      "pt": 229,
+      "ct": 271,
+      "cost_rmb": 0.002626
+    },
+    {
+      "id": "SQL-4",
+      "exec_ok": false,
+      "pass": false,
+      "got": "None",
+      "err": "unrecognized token: \"```\"",
+      "latency_s": 12.011,
+      "pt": 229,
+      "ct": 2048,
+      "cost_rmb": 0.016842
+    },
+    {
+      "id": "SQL-5",
+      "exec_ok": true,
+      "pass": true,
+      "got": "PO1",
+      "err": "",
+      "latency_s": 5.242,
+      "pt": 219,
+      "ct": 565,
+      "cost_rmb": 0.004958
+    },
+    {
+      "id": "SQL-6",
+      "exec_ok": true,
+      "pass": true,
+      "got": "0.35",
+      "err": "",
+      "latency_s": 8.786,
+      "pt": 260,
+      "ct": 1341,
+      "cost_rmb": 0.011248
+    }
+  ],
+  "p12_glm_2048": [
+    {
+      "id": "BUG-1",
+      "has_bug": true,
+      "pred": true,
+      "pass": true,
+      "latency_s": 4.058,
+      "pt": 164,
+      "ct": 405,
+      "cost_rmb": 0.003568
+    },
+    {
+      "id": "BUG-2",
+      "has_bug": true,
+      "pred": true,
+      "pass": true,
+      "latency_s": 4.109,
+      "pt": 149,
+      "ct": 414,
+      "cost_rmb": 0.00361
+    },
+    {
+      "id": "BUG-3",
+      "has_bug": true,
+      "pred": true,
+      "pass": true,
+      "latency_s": 3.562,
+      "pt": 142,
+      "ct": 328,
+      "cost_rmb": 0.002908
+    },
+    {
+      "id": "BUG-4",
+      "has_bug": true,
+      "pred": true,
+      "pass": true,
+      "latency_s": 2.818,
+      "pt": 154,
+      "ct": 257,
+      "cost_rmb": 0.002364
+    },
+    {
+      "id": "BUG-5",
+      "has_bug": true,
+      "pred": true,
+      "pass": true,
+      "latency_s": 4.464,
+      "pt": 163,
+      "ct": 476,
+      "cost_rmb": 0.004134
+    },
+    {
+      "id": "BUG-6",
+      "has_bug": true,
+      "pred": false,
+      "pass": false,
+      "latency_s": 7.068,
+      "pt": 181,
+      "ct": 1038,
+      "cost_rmb": 0.008666
+    },
+    {
+      "id": "OK-1",
+      "has_bug": false,
+      "pred": false,
+      "pass": true,
+      "latency_s": 7.548,
+      "pt": 166,
+      "ct": 1037,
+      "cost_rmb": 0.008628
+    },
+    {
+      "id": "OK-2",
+      "has_bug": false,
+      "pred": false,
+      "pass": true,
+      "latency_s": 5.034,
+      "pt": 160,
+      "ct": 522,
+      "cost_rmb": 0.004496
+    }
+  ],
+  "p14_glm_2048": [
+    {
+      "id": "MTG-1",
+      "hit": 0,
+      "total": 3,
+      "pass": false,
+      "latency_s": 13.629,
+      "pt": 306,
+      "ct": 2048,
+      "cost_rmb": 0.016996
+    },
+    {
+      "id": "MTG-2",
+      "hit": 0,
+      "total": 2,
+      "pass": false,
+      "latency_s": 12.965,
+      "pt": 211,
+      "ct": 2048,
+      "cost_rmb": 0.016806
+    }
+  ]
+}

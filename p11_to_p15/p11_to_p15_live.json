@@ -1,0 +1,910 @@
+{
+  "run_at": "2026-11-24T10:31:54.501694",
+  "p11": {
+    "qwen3.8-max": [
+      {
+        "id": "SQL-1",
+        "exec_ok": true,
+        "pass": true,
+        "got": "25200.0",
+        "err": "",
+        "latency_s": 2.041,
+        "pt": 267,
+        "ct": 89,
+        "cost_rmb": 0.001495
+      },
+      {
+        "id": "SQL-2",
+        "exec_ok": true,
+        "pass": true,
+        "got": "4000.0",
+        "err": "",
+        "latency_s": 2.456,
+        "pt": 245,
+        "ct": 71,
+        "cost_rmb": 0.00127
+      },
+      {
+        "id": "SQL-3",
+        "exec_ok": true,
+        "pass": true,
+        "got": "2",
+        "err": "",
+        "latency_s": 1.678,
+        "pt": 249,
+        "ct": 58,
+        "cost_rmb": 0.001154
+      },
+      {
+        "id": "SQL-4",
+        "exec_ok": true,
+        "pass": true,
+        "got": "华东",
+        "err": "",
+        "latency_s": 2.124,
+        "pt": 253,
+        "ct": 89,
+        "cost_rmb": 0.001462
+      },
+      {
+        "id": "SQL-5",
+        "exec_ok": true,
+        "pass": true,
+        "got": "PO1",
+        "err": "",
+        "latency_s": 1.584,
+        "pt": 237,
+        "ct": 33,
+        "cost_rmb": 0.000886
+      },
+      {
+        "id": "SQL-6",
+        "exec_ok": true,
+        "pass": false,
+        "got": "0.22",
+        "err": "",
+        "latency_s": 2.504,
+        "pt": 277,
+        "ct": 115,
+        "cost_rmb": 0.001769
+      }
+    ],
+    "deepseek-v4-pro": [
+      {
+        "id": "SQL-1",
+        "exec_ok": true,
+        "pass": true,
+        "got": "25200.0",
+        "err": "",
+        "latency_s": 3.468,
+        "pt": 248,
+        "ct": 106,
+        "cost_rmb": 0.001344
+      },
+      {
+        "id": "SQL-2",
+        "exec_ok": true,
+        "pass": true,
+        "got": "4000.0",
+        "err": "",
+        "latency_s": 3.411,
+        "pt": 228,
+        "ct": 97,
+        "cost_rmb": 0.001232
+      },
+      {
+        "id": "SQL-3",
+        "exec_ok": true,
+        "pass": true,
+        "got": "2",
+        "err": "",
+        "latency_s": 3.798,
+        "pt": 233,
+        "ct": 94,
+        "cost_rmb": 0.001218
+      },
+      {
+        "id": "SQL-4",
+        "exec_ok": true,
+        "pass": false,
+        "got": "华南",
+        "err": "",
+        "latency_s": 4.294,
+        "pt": 230,
+        "ct": 149,
+        "cost_rmb": 0.001652
+      },
+      {
+        "id": "SQL-5",
+        "exec_ok": true,
+        "pass": true,
+        "got": "PO1",
+        "err": "",
+        "latency_s": 2.26,
+        "pt": 220,
+        "ct": 46,
+        "cost_rmb": 0.000808
+      },
+      {
+        "id": "SQL-6",
+        "exec_ok": true,
+        "pass": false,
+        "got": "0.22",
+        "err": "",
+        "latency_s": 5.548,
+        "pt": 256,
+        "ct": 170,
+        "cost_rmb": 0.001872
+      }
+    ],
+    "glm-5.3-prime": [
+      {
+        "id": "SQL-1",
+        "exec_ok": false,
+        "pass": false,
+        "got": "None",
+        "err": "unrecognized token: \"```sql\nSELECT COALESCE(SUM(CASE WHEN po.currency = 'USD' THEN po.amount_cents * 7.2 ELSE po.amount_cents END), 0) / 100.0\"",
+        "latency_s": 2.953,
+        "pt": 246,
+        "ct": 300,
+        "cost_rmb": 0.002892
+      },
+      {
+        "id": "SQL-2",
+        "exec_ok": false,
+        "pass": false,
+        "got": "None",
+        "err": "unrecognized token: \"```\"",
+        "latency_s": 3.424,
+        "pt": 228,
+        "ct": 300,
+        "cost_rmb": 0.002856
+      },
+      {
+        "id": "SQL-3",
+        "exec_ok": true,
+        "pass": true,
+        "got": "2",
+        "err": "",
+        "latency_s": 3.019,
+        "pt": 229,
+        "ct": 241,
+        "cost_rmb": 0.002386
+      },
+      {
+        "id": "SQL-4",
+        "exec_ok": false,
+        "pass": false,
+        "got": "None",
+        "err": "unrecognized token: \"```\"",
+        "latency_s": 3.477,
+        "pt": 229,
+        "ct": 300,
+        "cost_rmb": 0.002858
+      },
+      {
+        "id": "SQL-5",
+        "exec_ok": false,
+        "pass": false,
+        "got": "None",
+        "err": "unrecognized token: \"```\"",
+        "latency_s": 2.66,
+        "pt": 219,
+        "ct": 300,
+        "cost_rmb": 0.002838
+      },
+      {
+        "id": "SQL-6",
+        "exec_ok": false,
+        "pass": false,
+        "got": "None",
+        "err": "unrecognized token: \"```\"",
+        "latency_s": 3.223,
+        "pt": 260,
+        "ct": 300,
+        "cost_rmb": 0.00292
+      }
+    ],
+    "kimi-k3.1-pro": [
+      {
+        "id": "SQL-1",
+        "exec_ok": true,
+        "pass": true,
+        "got": "25200.0",
+        "err": "",
+        "latency_s": 3.047,
+        "pt": 252,
+        "ct": 92,
+        "cost_rmb": 0.00124
+      },
+      {
+        "id": "SQL-2",
+        "exec_ok": true,
+        "pass": true,
+        "got": "4000.0",
+        "err": "",
+        "latency_s": 2.884,
+        "pt": 234,
+        "ct": 82,
+        "cost_rmb": 0.001124
+      },
+      {
+        "id": "SQL-3",
+        "exec_ok": true,
+        "pass": true,
+        "got": "2",
+        "err": "",
+        "latency_s": 3.386,
+        "pt": 238,
+        "ct": 84,
+        "cost_rmb": 0.001148
+      },
+      {
+        "id": "SQL-4",
+        "exec_ok": true,
+        "pass": true,
+        "got": "华东",
+        "err": "",
+        "latency_s": 3.751,
+        "pt": 238,
+        "ct": 94,
+        "cost_rmb": 0.001228
+      },
+      {
+        "id": "SQL-5",
+        "exec_ok": true,
+        "pass": true,
+        "got": "PO1",
+        "err": "",
+        "latency_s": 4.27,
+        "pt": 226,
+        "ct": 52,
+        "cost_rmb": 0.000868
+      },
+      {
+        "id": "SQL-6",
+        "exec_ok": true,
+        "pass": false,
+        "got": "0.22",
+        "err": "",
+        "latency_s": 4.172,
+        "pt": 261,
+        "ct": 149,
+        "cost_rmb": 0.001714
+      }
+    ]
+  },
+  "p12": {
+    "qwen3.8-max": [
+      {
+        "id": "BUG-1",
+        "has_bug": true,
+        "pred_bug": true,
+        "pass": true,
+        "latency_s": 1.701,
+        "pt": 113,
+        "ct": 59,
+        "cost_rmb": 0.000838
+      },
+      {
+        "id": "BUG-2",
+        "has_bug": true,
+        "pred_bug": true,
+        "pass": true,
+        "latency_s": 1.399,
+        "pt": 97,
+        "ct": 40,
+        "cost_rmb": 0.000617
+      },
+      {
+        "id": "BUG-3",
+        "has_bug": true,
+        "pred_bug": true,
+        "pass": true,
+        "latency_s": 1.545,
+        "pt": 89,
+        "ct": 46,
+        "cost_rmb": 0.000655
+      },
+      {
+        "id": "BUG-4",
+        "has_bug": true,
+        "pred_bug": true,
+        "pass": true,
+        "latency_s": 1.558,
+        "pt": 101,
+        "ct": 31,
+        "cost_rmb": 0.00054
+      },
+      {
+        "id": "BUG-5",
+        "has_bug": true,
+        "pred_bug": true,
+        "pass": true,
+        "latency_s": 1.717,
+        "pt": 110,
+        "ct": 37,
+        "cost_rmb": 0.000619
+      },
+      {
+        "id": "BUG-6",
+        "has_bug": true,
+        "pred_bug": true,
+        "pass": true,
+        "latency_s": 1.54,
+        "pt": 131,
+        "ct": 37,
+        "cost_rmb": 0.00067
+      },
+      {
+        "id": "OK-1",
+        "has_bug": false,
+        "pred_bug": false,
+        "pass": true,
+        "latency_s": 0.832,
+        "pt": 114,
+        "ct": 12,
+        "cost_rmb": 0.000389
+      },
+      {
+        "id": "OK-2",
+        "has_bug": false,
+        "pred_bug": false,
+        "pass": true,
+        "latency_s": 0.792,
+        "pt": 107,
+        "ct": 12,
+        "cost_rmb": 0.000372
+      }
+    ],
+    "deepseek-v4-pro": [
+      {
+        "id": "BUG-1",
+        "has_bug": true,
+        "pred_bug": true,
+        "pass": true,
+        "latency_s": 1.686,
+        "pt": 106,
+        "ct": 30,
+        "cost_rmb": 0.000452
+      },
+      {
+        "id": "BUG-2",
+        "has_bug": true,
+        "pred_bug": true,
+        "pass": true,
+        "latency_s": 2.205,
+        "pt": 85,
+        "ct": 38,
+        "cost_rmb": 0.000474
+      },
+      {
+        "id": "BUG-3",
+        "has_bug": true,
+        "pred_bug": true,
+        "pass": true,
+        "latency_s": 1.933,
+        "pt": 83,
+        "ct": 28,
+        "cost_rmb": 0.00039
+      },
+      {
+        "id": "BUG-4",
+        "has_bug": true,
+        "pred_bug": true,
+        "pass": true,
+        "latency_s": 2.17,
+        "pt": 90,
+        "ct": 35,
+        "cost_rmb": 0.00046
+      },
+      {
+        "id": "BUG-5",
+        "has_bug": true,
+        "pred_bug": true,
+        "pass": true,
+        "latency_s": 1.845,
+        "pt": 101,
+        "ct": 33,
+        "cost_rmb": 0.000466
+      },
+      {
+        "id": "BUG-6",
+        "has_bug": true,
+        "pred_bug": true,
+        "pass": true,
+        "latency_s": 2.117,
+        "pt": 119,
+        "ct": 34,
+        "cost_rmb": 0.00051
+      },
+      {
+        "id": "OK-1",
+        "has_bug": false,
+        "pred_bug": false,
+        "pass": true,
+        "latency_s": 1.53,
+        "pt": 104,
+        "ct": 13,
+        "cost_rmb": 0.000312
+      },
+      {
+        "id": "OK-2",
+        "has_bug": false,
+        "pred_bug": false,
+        "pass": true,
+        "latency_s": 1.027,
+        "pt": 97,
+        "ct": 13,
+        "cost_rmb": 0.000298
+      }
+    ],
+    "glm-5.3-prime": [
+      {
+        "id": "BUG-1",
+        "has_bug": true,
+        "pred_bug": false,
+        "pass": false,
+        "latency_s": 1.775,
+        "pt": 108,
+        "ct": 200,
+        "cost_rmb": 0.001816
+      },
+      {
+        "id": "BUG-2",
+        "has_bug": true,
+        "pred_bug": false,
+        "pass": false,
+        "latency_s": 2.723,
+        "pt": 93,
+        "ct": 200,
+        "cost_rmb": 0.001786
+      },
+      {
+        "id": "BUG-3",
+        "has_bug": true,
+        "pred_bug": false,
+        "pass": false,
+        "latency_s": 2.915,
+        "pt": 86,
+        "ct": 200,
+        "cost_rmb": 0.001772
+      },
+      {
+        "id": "BUG-4",
+        "has_bug": true,
+        "pred_bug": false,
+        "pass": false,
+        "latency_s": 2.658,
+        "pt": 98,
+        "ct": 200,
+        "cost_rmb": 0.001796
+      },
+      {
+        "id": "BUG-5",
+        "has_bug": true,
+        "pred_bug": false,
+        "pass": false,
+        "latency_s": 2.603,
+        "pt": 107,
+        "ct": 200,
+        "cost_rmb": 0.001814
+      },
+      {
+        "id": "BUG-6",
+        "has_bug": true,
+        "pred_bug": false,
+        "pass": false,
+        "latency_s": 2.46,
+        "pt": 125,
+        "ct": 200,
+        "cost_rmb": 0.00185
+      },
+      {
+        "id": "OK-1",
+        "has_bug": false,
+        "pred_bug": false,
+        "pass": false,
+        "latency_s": 1.797,
+        "pt": 110,
+        "ct": 200,
+        "cost_rmb": 0.00182
+      },
+      {
+        "id": "OK-2",
+        "has_bug": false,
+        "pred_bug": false,
+        "pass": false,
+        "latency_s": 1.739,
+        "pt": 104,
+        "ct": 200,
+        "cost_rmb": 0.001808
+      }
+    ],
+    "kimi-k3.1-pro": [
+      {
+        "id": "BUG-1",
+        "has_bug": true,
+        "pred_bug": true,
+        "pass": true,
+        "latency_s": 2.153,
+        "pt": 114,
+        "ct": 42,
+        "cost_rmb": 0.000564
+      },
+      {
+        "id": "BUG-2",
+        "has_bug": true,
+        "pred_bug": true,
+        "pass": true,
+        "latency_s": 1.927,
+        "pt": 99,
+        "ct": 52,
+        "cost_rmb": 0.000614
+      },
+      {
+        "id": "BUG-3",
+        "has_bug": true,
+        "pred_bug": true,
+        "pass": true,
+        "latency_s": 1.95,
+        "pt": 92,
+        "ct": 48,
+        "cost_rmb": 0.000568
+      },
+      {
+        "id": "BUG-4",
+        "has_bug": true,
+        "pred_bug": true,
+        "pass": true,
+        "latency_s": 1.699,
+        "pt": 104,
+        "ct": 49,
+        "cost_rmb": 0.0006
+      },
+      {
+        "id": "BUG-5",
+        "has_bug": true,
+        "pred_bug": true,
+        "pass": true,
+        "latency_s": 3.945,
+        "pt": 113,
+        "ct": 58,
+        "cost_rmb": 0.00069
+      },
+      {
+        "id": "BUG-6",
+        "has_bug": true,
+        "pred_bug": true,
+        "pass": true,
+        "latency_s": 2.383,
+        "pt": 131,
+        "ct": 49,
+        "cost_rmb": 0.000654
+      },
+      {
+        "id": "OK-1",
+        "has_bug": false,
+        "pred_bug": false,
+        "pass": true,
+        "latency_s": 2.329,
+        "pt": 115,
+        "ct": 18,
+        "cost_rmb": 0.000374
+      },
+      {
+        "id": "OK-2",
+        "has_bug": false,
+        "pred_bug": false,
+        "pass": true,
+        "latency_s": 1.432,
+        "pt": 111,
+        "ct": 18,
+        "cost_rmb": 0.000366
+      }
+    ]
+  },
+  "p13": {
+    "full_ctx_max": [
+      {
+        "id": "KB-1",
+        "pass": true,
+        "pt": 6858,
+        "ct": 21,
+        "latency_s": 1.139,
+        "cost_rmb": 0.016661
+      },
+      {
+        "id": "KB-2",
+        "pass": true,
+        "pt": 6866,
+        "ct": 19,
+        "latency_s": 1.17,
+        "cost_rmb": 0.016661
+      },
+      {
+        "id": "KB-3",
+        "pass": true,
+        "pt": 6860,
+        "ct": 17,
+        "latency_s": 1.223,
+        "cost_rmb": 0.016627
+      },
+      {
+        "id": "KB-4",
+        "pass": true,
+        "pt": 6862,
+        "ct": 17,
+        "latency_s": 1.129,
+        "cost_rmb": 0.016632
+      }
+    ],
+    "full_ctx_flash": [
+      {
+        "id": "KB-1",
+        "pass": true,
+        "pt": 6871,
+        "ct": 12,
+        "latency_s": 0.865,
+        "cost_rmb": 0.001049
+      },
+      {
+        "id": "KB-2",
+        "pass": true,
+        "pt": 6879,
+        "ct": 11,
+        "latency_s": 0.871,
+        "cost_rmb": 0.001048
+      },
+      {
+        "id": "KB-3",
+        "pass": true,
+        "pt": 6873,
+        "ct": 9,
+        "latency_s": 1.002,
+        "cost_rmb": 0.001044
+      },
+      {
+        "id": "KB-4",
+        "pass": true,
+        "pt": 6875,
+        "ct": 7,
+        "latency_s": 0.624,
+        "cost_rmb": 0.001042
+      }
+    ],
+    "rag_top3_max": [
+      {
+        "id": "KB-1",
+        "pass": true,
+        "pt": 637,
+        "ct": 22,
+        "latency_s": 1.334,
+        "cost_rmb": 0.00174
+      },
+      {
+        "id": "KB-2",
+        "pass": true,
+        "pt": 636,
+        "ct": 20,
+        "latency_s": 1.085,
+        "cost_rmb": 0.001718
+      },
+      {
+        "id": "KB-3",
+        "pass": true,
+        "pt": 615,
+        "ct": 17,
+        "latency_s": 0.983,
+        "cost_rmb": 0.001639
+      },
+      {
+        "id": "KB-4",
+        "pass": true,
+        "pt": 617,
+        "ct": 14,
+        "latency_s": 0.851,
+        "cost_rmb": 0.001615
+      }
+    ],
+    "rag_top3_flash": [
+      {
+        "id": "KB-1",
+        "pass": true,
+        "pt": 650,
+        "ct": 12,
+        "latency_s": 0.622,
+        "cost_rmb": 0.000116
+      },
+      {
+        "id": "KB-2",
+        "pass": true,
+        "pt": 649,
+        "ct": 10,
+        "latency_s": 0.613,
+        "cost_rmb": 0.000112
+      },
+      {
+        "id": "KB-3",
+        "pass": true,
+        "pt": 628,
+        "ct": 8,
+        "latency_s": 0.717,
+        "cost_rmb": 0.000106
+      },
+      {
+        "id": "KB-4",
+        "pass": true,
+        "pt": 630,
+        "ct": 9,
+        "latency_s": 0.596,
+        "cost_rmb": 0.000108
+      }
+    ]
+  },
+  "p14": {
+    "qwen3.8-max": [
+      {
+        "id": "MTG-1",
+        "hit": 3,
+        "total": 3,
+        "pass": true,
+        "latency_s": 4.117,
+        "pt": 319,
+        "ct": 215,
+        "cost_rmb": 0.00283,
+        "preview": "```json\n[\n  {\n    \"owner\": \"张伟\",\n    \"deadline\": \"2026-11-25 20:00\",\n    \"task\": \"将熔断限流（Circuit Breaker）PR合入，解决Rerank服务批量请求打满vLLM队列导致P99飙高的问题\"\n  },\n  {\n    \"owner\": \"李敏\",\n    \"deadline\": \"2026-11-26 12:00\",\n    \"task\": \"在张伟合完PR后，跑完100路并发回归压测\"\n  },\n  {\n    \"owner\": \"赵磊\",\n    \"deadline\": \"2026-11-24 下班前\",\n    \"task\": \"给Redis session加上30分钟TTL，并将128K原文迁移到OSS，解决Redis OOM问题\"\n  }\n]\n```"
+      },
+      {
+        "id": "MTG-2",
+        "hit": 2,
+        "total": 2,
+        "pass": true,
+        "latency_s": 2.455,
+        "pt": 226,
+        "ct": 124,
+        "cost_rmb": 0.001733,
+        "preview": "```json\n[\n  {\n    \"owner\": \"周明\",\n    \"deadline\": \"2026-11-27\",\n    \"task\": \"将审计日志接入 DynamoDB/ES 并上线\"\n  },\n  {\n    \"owner\": \"林雪\",\n    \"deadline\": \"2026-11-27\",\n    \"task\": \"将邮件注入对抗集（mail_injection.jsonl）补充至 50 条，并提交给 CI 棘轮门禁\"\n  }\n]\n```"
+      }
+    ],
+    "deepseek-v4-pro": [
+      {
+        "id": "MTG-1",
+        "hit": 3,
+        "total": 3,
+        "pass": true,
+        "latency_s": 3.908,
+        "pt": 296,
+        "ct": 144,
+        "cost_rmb": 0.001744,
+        "preview": "[\n  {\n    \"owner\": \"张伟\",\n    \"deadline\": \"2026-11-25T20:00:00\",\n    \"task\": \"完成Rerank服务熔断限流PR合并\"\n  },\n  {\n    \"owner\": \"李敏\",\n    \"deadline\": \"2026-11-26T12:00:00\",\n    \"task\": \"完成100路并发回归压测\"\n  },\n  {\n    \"owner\": \"赵磊\",\n    \"deadline\": \"2026-11-24T18:00:00\",\n    \"task\": \"给Redis session加上30分钟TTL并将原文迁移到OSS\"\n  }\n]"
+      },
+      {
+        "id": "MTG-2",
+        "hit": 2,
+        "total": 2,
+        "pass": true,
+        "latency_s": 3.976,
+        "pt": 207,
+        "ct": 103,
+        "cost_rmb": 0.001238,
+        "preview": "[\n  {\n    \"owner\": \"周明\",\n    \"deadline\": \"2026-11-27\",\n    \"task\": \"将审计日志接入 DynamoDB/ES 并上线\"\n  },\n  {\n    \"owner\": \"林雪\",\n    \"deadline\": \"2026-11-27\",\n    \"task\": \"将邮件注入对抗集（mail_injection.jsonl）补充至 50 条并提交给 CI 棘轮门禁\"\n  }\n]"
+      }
+    ],
+    "glm-5.3-prime": [
+      {
+        "id": "MTG-1",
+        "hit": 0,
+        "total": 3,
+        "pass": false,
+        "latency_s": 3.621,
+        "pt": 306,
+        "ct": 400,
+        "cost_rmb": 0.003812,
+        "preview": "```"
+      },
+      {
+        "id": "MTG-2",
+        "hit": 0,
+        "total": 2,
+        "pass": false,
+        "latency_s": 3.649,
+        "pt": 211,
+        "ct": 400,
+        "cost_rmb": 0.003622,
+        "preview": "```"
+      }
+    ],
+    "kimi-k3.1-pro": [
+      {
+        "id": "MTG-1",
+        "hit": 3,
+        "total": 3,
+        "pass": true,
+        "latency_s": 5.839,
+        "pt": 297,
+        "ct": 167,
+        "cost_rmb": 0.00193,
+        "preview": "[\n  {\n    \"owner\": \"张伟\",\n    \"deadline\": \"2026-11-25 20:00\",\n    \"task\": \"合并熔断限流 PR，解决批量请求未加 Circuit Breaker 导致 vLLM 队列打满的问题\"\n  },\n  {\n    \"owner\": \"李敏\",\n    \"deadline\": \"2026-11-26 12:00\",\n    \"task\": \"在张伟合并 PR 后完成 100 路并发回归压测\"\n  },\n  {\n    \"owner\": \"赵磊\",\n    \"deadline\": \"2026-11-24 下班前\",\n    \"task\": \"为 Redis session 增加 30 分钟 TTL，并将原文迁移到 OSS\"\n  }\n]"
+      },
+      {
+        "id": "MTG-2",
+        "hit": 2,
+        "total": 2,
+        "pass": true,
+        "latency_s": 3.243,
+        "pt": 214,
+        "ct": 117,
+        "cost_rmb": 0.001364,
+        "preview": "[\n  {\n    \"owner\": \"周明\",\n    \"deadline\": \"2026-11-27\",\n    \"task\": \"将 SAP 只读接口的审计日志接入 DynamoDB/ES 并上线\"\n  },\n  {\n    \"owner\": \"林雪\",\n    \"deadline\": \"2026-11-27\",\n    \"task\": \"将邮件注入对抗集（mail_injection.jsonl）补充至 50 条，并在下班前提交给 CI 棘轮门禁\"\n  }\n]"
+      }
+    ]
+  },
+  "p15": {
+    "qwen3.8-flash": {
+      "c1": {
+        "conc": 1,
+        "ok": 1,
+        "fail": 0,
+        "wall_s": 1.92,
+        "ttft_p50": 0.561,
+        "ttft_p95": 0.561,
+        "max_lat": 1.915,
+        "cost_rmb": 9e-05
+      },
+      "c10": {
+        "conc": 10,
+        "ok": 10,
+        "fail": 0,
+        "wall_s": 2.21,
+        "ttft_p50": 0.512,
+        "ttft_p95": 0.633,
+        "max_lat": 2.206,
+        "cost_rmb": 0.00088
+      },
+      "c25": {
+        "conc": 25,
+        "ok": 25,
+        "fail": 0,
+        "wall_s": 2.56,
+        "ttft_p50": 0.542,
+        "ttft_p95": 0.668,
+        "max_lat": 2.553,
+        "cost_rmb": 0.00222
+      }
+    },
+    "qwen3.8-max": {
+      "c1": {
+        "conc": 1,
+        "ok": 1,
+        "fail": 0,
+        "wall_s": 2.98,
+        "ttft_p50": 1.052,
+        "ttft_p95": 1.052,
+        "max_lat": 2.975,
+        "cost_rmb": 0.00076
+      },
+      "c10": {
+        "conc": 10,
+        "ok": 10,
+        "fail": 0,
+        "wall_s": 3.18,
+        "ttft_p50": 0.896,
+        "ttft_p95": 1.143,
+        "max_lat": 3.175,
+        "cost_rmb": 0.00695
+      },
+      "c25": {
+        "conc": 25,
+        "ok": 25,
+        "fail": 0,
+        "wall_s": 3.09,
+        "ttft_p50": 0.798,
+        "ttft_p95": 1.285,
+        "max_lat": 3.091,
+        "cost_rmb": 0.01689
+      }
+    }
+  },
+  "elapsed_s": 199.1
+}
