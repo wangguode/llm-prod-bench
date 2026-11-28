@@ -71,7 +71,8 @@ We partner with **LLM providers, API gateways, cloud inference platforms, and AI
 | **Sponsored Deep-Dive** | Dedicated reproducible probe suite + English deep-dive (DEV.to) + X promo thread/video + GitHub sponsor badge | Global AI Infra, API routers, LLM observability & DevTools |
 | **Bilingual Launch Pack** | Everything above + full Chinese engineering report on Zhihu (12K+ tech followers) | Teams targeting both global & Chinese enterprise developers |
 
-### Get in Touch
-- **Fastest**: DM on X ([@sansaxypy](https://x.com/sansaxypy))
+### Get in Touch (Sponsored Benchmarks · Paid Technical Writing · Production Eval Audits)
+- **Direct Email (Fastest)**: `zhangsanx34@gmail.com` *(for DevRel test keys, sponsored bilingual benchmarks, or freelance AI engineering articles)*
 - **GitHub**: Open a `[Benchmark Request]` issue on this repo
-- **DEV.to**: Message [@wangguode](https://dev.to/wangguode)
+- **DEV.to / X**: [@wangguode](https://dev.to/wangguode) · [@sansaxypy](https://x.com/sansaxypy)
+- **Production Tools Built**: [StatementFlow AI](https://statementflow.win) *(100% browser-local PDF bank statement parser & deterministic double-entry audit engine)*
